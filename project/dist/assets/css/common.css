@@ -1,0 +1,47 @@
+/* default */
+html {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0; }
+  html body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background: #fff;
+    min-width: 320px;
+    -webkit-text-size-adjust: none;
+    -webkit-text-stroke-width: 0;
+    font-family: 'Avenir Next LT W01 Demi','Nanum Gothic','Droid Sans','Apple-Gothic',sans-serif;
+    font-size: 11px;
+    line-height: 1.5;
+    color: #555;
+    letter-spacing: -0.05em; }
+    html body div, html body p, html body h1, html body h2, html body h3, html body h4, html body h5, html body h6, html body ul, html body ol, html body li, html body dl, html body dt, html body dd, html body table, html body th, html body td, html body form, html body fieldset, html body legend, html body input, html body textarea, html body button, html body select, html body pre, html body menu {
+      margin: 0;
+      padding: 0; }
+    html body a:link {
+      color: #231f20;
+      text-decoration: none; }
+    html body a:hover {
+      color: #231f20;
+      text-decoration: none; }
+    html body a:visited {
+      color: #231f20;
+      text-decoration: none; }
+    html body a:active {
+      color: #231f20;
+      text-decoration: none; }
+
+table {
+  width: 100%;
+  table-layout: fixed;
+  border-spacing: 0;
+  border: 0 none;
+  border-collapse: separate;
+  *border-collapse: collapse; }
+  table caption {
+    display: none; }
+  table th, table td {
+    word-break: break-all; }
