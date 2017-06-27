@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>테스트입니다.</title>
+<title>테스트입니다.22</title>
 <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link rel="stylesheet" href="/assets/css/common.css" type="text/css" />

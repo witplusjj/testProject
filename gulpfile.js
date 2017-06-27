@@ -1,31 +1,10 @@
 var gulp = require("gulp"),
-	webserver = require("gulp-webserver"),
-	//concat = require("gulp-concat"),
 	sass = require("gulp-sass"),
 	livereload = require('gulp-livereload');
-	//browserSync = require("browser-sync").create();
 
 var src = "project/src";
 var dist = "project/dist";
 
-/* webserver 설정
-gulp.task("server", [], function(){
-	return browserSync.init({
-        server: {
-            baseDir: './dist/index.asp'
-        }
-    });
-})
-*/
-gulp.task('webserver', function() {
-	gulp.src(dist + '/')
-	.pipe(webserver({
-		livereload: true,
-		//port:8010,
-		//host:'192.168.11.172',
-		open:true
-	}));
-});
 // sass 설정 (sass 파일을 css 로 컴파일한다.)
 gulp.task("compile-sass", function(){
 	return gulp.src(src + "/scss/*.scss")
@@ -41,8 +20,7 @@ gulp.task('watch', function () {
 });
 
 // default 설정
-gulp.task("default", [
-	"webserver",
+gulp.task("default", [	
 	"compile-sass",
 	"watch"
 ]);
